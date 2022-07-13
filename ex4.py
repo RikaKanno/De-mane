@@ -15,3 +15,7 @@ while tries < 3:
         print ('Tails')
         
 print("Heads: ", cnt_head, ' Tails: ', cnt_tail)
+
+if cnt_head > cnt_tail:
+    print("You won")
+else print("You lost")
