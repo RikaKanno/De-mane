@@ -3,6 +3,9 @@ tries = 0
 cnt_head = 0
 cnt_tail = 0
 
+name = input('Who are you?\n')
+print('Hello, ',name,'!')
+
 print("Tossing a coin...")
 while tries < 3:
     tries += 1
