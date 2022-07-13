@@ -3,6 +3,9 @@ tries = 0
 cnt_head = 0
 cnt_tail = 0
 
+name = input('Who are you?\n')
+print('Hello, ',name,'!')
+
 print("Tossing a coin...")
 while tries < 3:
     tries += 1
@@ -17,6 +20,6 @@ while tries < 3:
 print("Heads: ", cnt_head, ' Tails: ', cnt_tail)
 
 if cnt_head > cnt_tail:
-    print("You won")
+    print(name,  ' won!')
 else: 
-    print("You lost")
+    print(name, ' lost!')
